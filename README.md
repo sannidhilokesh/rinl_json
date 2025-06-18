@@ -1,2 +1,2 @@
-# rinl_json
-this is using json and php 
+# rinl_project
+this is my firs project in internship

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <div class="top-header">
+                <span>Don't have an account?</span>
+                <header>Register</header>
+            </div>
+            <form id="registerForm" action="register.php" method="POST">         
+                <div class="input-field">
+                    <input type="text" class="input" placeholder="Username" name="username" required>
+                    <i class="bx bx-user"></i>
+                </div>
+                <div class="input-field">
+                    <input type="email" class="input" placeholder="Email (must be @gmail.com)" name="email" required>
+                    <i class="bx bx-envelope"></i>
+                </div>
+                <div class="input-field">
+                    <input type="password" class="input" placeholder="Password (min 6 characters)" name="password" id="registerPassword" required>
+                    <i class="bx bx-lock-alt"></i>
+                </div>
+                <div class="show-password-container">
+                    <input type="checkbox" id="showPasswordToggle">
+                    <label for="showPasswordToggle">Show Password</label>
+                </div>
+                <div class="input-field">
+                    <select name="userType" class="input" required>
+                        <option value="" disabled selected>Select user type</option>
+                        <option value="admin">Admin</option>
+                        <option value="customer">Customer</option>
+                    </select>
+                </div>
+                <div class="input-field">
+                    <input type="submit" class="submit" value="Register">
+                </div>
+            </form>
+            <div class="bottom">
+                <div class="left">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <div class="right">
+                    <label><a href="Rinl.html">Already have an account?</a></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ✅ Make sure this is last -->
+    <script src="java.js"></script>
+</body>
+</html>

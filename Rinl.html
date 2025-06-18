@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RINL WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo"></div>
+        </div>
+
+        <div class="logo2"></div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="https://www.vizagsteel.com/index.asp">HOME</a></li>
+                <li><a href="https://www.vizagsteel.com/myindex.asp?tm=1&url=code/mktg_segment/PROFILE.asp">ABOUT</a></li>
+                <li><a href="https://www.vizagsteel.com/ptms/">INTERNSHIP</a></li>
+                <li><a href="https://www.vizagsteel.com/mobile/mob/index.html">MobileApps</a></li>
+            </ul>
+        </div>
+
+        <div class="content-back">
+            <div class="content">
+                <h1>Rashtriya Ispat Nigam Limited</h1>
+                <h2>Visakhapatnam Steel Plant (VSP)</h2>
+                <h2>(A Govt. of India Enterprise)</h2><br>
+                <p class="par">
+                    Rashtriya Ispat Nigam Ltd, also known as Vizag Steel,<br>
+                    is a central public sector undertaking under the ownership of Ministry of Steel,<br>
+                    Government of India based in Visakhapatnam, India.
+                </p>
+            </div>
+        </div>
+
+        <div class="form">
+            <h2>Login Here</h2>
+            <form id="loginForm" action="login.php" method="POST">
+                <select name="userType" required class="dropdown">
+                    <option value="" disabled selected>Select user type</option>
+                    <option value="admin">Admin</option>
+                    <option value="customer">Customer</option>
+                </select>
+                <input type="email" name="email" placeholder="Enter Email Here" required>
+                <input type="password" name="password" placeholder="Enter Password Here" required>
+                <button type="submit" class="btnn">Login</button>
+            </form>
+
+            <p class="link">Don't have an account?<br>
+                <a href="rinl2.html">Sign up here</a>
+            </p>
+            <p class="liw">Log in with</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/rastriyaispatnigamltd/"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/R.I.N.L/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://x.com/RINL_VSP"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://www.youtube.com/watch?v=uePNq2bz3Xc"><ion-icon name="logo-youtube"></ion-icon></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ✅ Your JS script file -->
+    <script src="java.js"></script>
+</body>
+</html>

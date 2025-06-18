@@ -1,0 +1,89 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+    background-image: url(rinl45.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+.navbar {
+    background-color: #002147; 
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    text-align: center;      
+}
+
+    .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+
+    .logo-img {
+    height: 80px;
+    width: auto;
+    }
+
+    .logo-text {
+    font-size: 20px;
+    line-height: 1.5;
+    }
+
+    .admin-main {
+    padding: 40px 20px;
+    text-align: center;
+    }
+.heading {
+    display: inline-block;      
+    font-size: 30px;
+    background-color:  #002147;
+    color: white;
+    padding: 5px 15px;         
+    border-radius: 8px;        
+    margin-bottom: 30px;
+}
+
+
+    .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    }
+
+    .card {
+    display: block;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 220px;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    }
+
+    .card p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #002147;
+    }
+
+    .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+    }
